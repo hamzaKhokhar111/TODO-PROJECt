@@ -7,7 +7,7 @@ function Signin() {
     const [name,setname]=useState('')
     const [email,setemail]=useState('')
     async function conect(){
-        console.log(name,email)
+        // console.log(name,email)
         // let result= await fetch('http://localhost:5000',{
         //     method:"post",
         //     body:JSON.stringify({email}),
@@ -18,8 +18,8 @@ function Signin() {
         // });
         // result=await result.json();
         // console.log(result)
-        setemail("")
-        setname("")
+        // setemail("")
+        // setname("")
     }
   return (
     <div>
@@ -30,7 +30,7 @@ function Signin() {
                     <div className="coloum  col-lg 8 h-100  col-lg 4 h-200vh coloum  col-lg 4 h-200vh justify-content-center align-items-center " >
                         <div className='inputs'>
                             {/* <input className='p-2' value={name} onChange={(e)=>setname(e.target.name)}  placeholder='enter you email'/> */}
-                            <input className='p-2' value={email} onChange={(e)=>setemail(e.target.email)}  placeholder='enter you passward'  />
+                            <input className='p-2'  placeholder='enter you passward'  />
                             <button onClick={conect} className='btn'>SignIn</button>
                             </div>
                     </div>
