@@ -8,16 +8,16 @@ function Signin() {
     const [email,setemail]=useState('')
     async function conect(){
         console.log(name,email)
-        let result= await fetch('http://localhost:5000',{
-            method:"post",
-            body:JSON.stringify({email}),
-            headers:{
-                'content-type':'application.json'
+        // let result= await fetch('http://localhost:5000',{
+        //     method:"post",
+        //     body:JSON.stringify({email}),
+        //     headers:{
+        //         'content-type':'application.json'
 
-            }
-        });
-        result=await result.json();
-        console.log(result)
+        //     }
+        // });
+        // result=await result.json();
+        // console.log(result)
         setemail("")
         setname("")
     }

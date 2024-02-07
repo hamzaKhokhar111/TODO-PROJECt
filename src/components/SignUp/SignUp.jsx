@@ -21,21 +21,21 @@ function SignUp() {
     const submit =async (e)=>{
     
             console.log(inputs);
-            let result=await fetch('http://localhost:5000',{
-                method:'POST',
-                body: JSON.stringify({inputs}),
-                Headers:{
-                  'content-type':'application/json'
-                },
-              })
+            // let result=await fetch('http://localhost:5000',{
+            //     method:'POST',
+            //     body: JSON.stringify({inputs}),
+            //     Headers:{
+            //       'content-type':'application/json'
+            //     },
+            //   })
             setinputs({
                 email:"",
                 username:"",
                 passward:"",
             });
 
-            result=await result.json();
-            console.log(result)
+            // result=await result.json();
+            // console.log(result)
     
         
        
