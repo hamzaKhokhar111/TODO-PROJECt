@@ -1,0 +1,26 @@
+.coloum {
+    height: 80vh;
+}
+.sign-up-heading{
+    font-size: 200px;
+ color: orangered ;
+
+}
+.btn{
+    background-color: orangered;
+    color: white;
+}
+.inputs{
+    background-color: rgb(251, 253, 253);
+    padding-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 3rem;
+    gap: 2rem;
+    position: relative;
+    top: 5rem;
+}
